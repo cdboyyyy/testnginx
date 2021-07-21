@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("run app") {
       steps{
-        docker-compose up -d
+        echo 'docker-compose up -d'
       }
     }
   }
