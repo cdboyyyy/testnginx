@@ -6,7 +6,5 @@ pipeline {
         docker-compose up -d
       }
     }
-
   }
-   }                                                                        
-} 
+}                                                                         
